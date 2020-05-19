@@ -9,7 +9,7 @@ console.log(computerScore_span);
 const scoreBoard_div=document.querySelector(".score-board");
 const result_p=document.querySelector(".result > p");
 
- //cashing the dom means storing something for long time
+ 
 const rock_div=document.getElementById('r');
 const paper_div=document.getElementById('p');
 const scissor_div=document.getElementById('s');

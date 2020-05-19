@@ -1,0 +1,100 @@
+*
+{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;	
+}
+body
+{
+	background-color: white;
+}
+
+header{
+	background:yellow;
+}
+
+header> h1{
+	background:yellow;
+	text-align: center;
+	font-family:asap;
+}
+.score-board
+{
+	margin: 18px auto;
+	border: 3px solid red;
+	border-radius: 4px;
+	text-align: center;
+    width: 180px;
+    color:rgb(25,25,112);
+    font-size:33px;
+    padding: 10px 15px;
+    font-family:sans-serif,asap;
+    position: relative;
+
+}
+
+.badge
+{
+	background:green;
+	color: yellow;
+	font-size:15px;
+	padding:10px,40px;
+	font-family:asap,arial;
+
+}
+#user-label
+{
+	position: absolute;
+    top: 30px;
+    left:-25px;
+
+}
+#computer-label
+{
+	position: absolute;
+    top: 30px;
+    right:-30px;
+
+}
+
+.result > p
+{
+	
+	font-size:35px;
+	font-weight:bold;
+	text-align: center;
+	color:rgb(255,69,0);
+	font-family:Comic Sans, Comic Sans MS, cursive;
+}
+.choices
+{
+	margin-top: 50px 0;
+	text-align:center;
+	
+
+}
+.choice
+{
+	border: 5px solid green;
+	border-radius: 15%;
+	margin:0 15px;
+	padding: 10px;
+	display: inline-block;
+	transition: all 0.5s ease
+}
+.choice:hover{
+	cursor: pointer;
+	background: rgb(127,255,0);
+}
+
+#action-message
+{
+text-align: center;
+color: rgb(255,215,0);
+font-family: Arnoldboecklin, fantasy;
+font-weight: bold;
+font-size:15px;
+margin-top: 15px;
+}
+
+

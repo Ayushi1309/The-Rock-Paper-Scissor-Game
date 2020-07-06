@@ -18,6 +18,13 @@ header> h1{
 	text-align: center;
 	font-family:asap;
 }
+footer >p{
+	 position: fixed;
+	background-color:yellow;
+	color:black;
+  bottom: 0;
+  right: 0;
+}
 
 .score-board
 {

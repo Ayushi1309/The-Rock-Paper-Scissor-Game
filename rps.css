@@ -24,12 +24,9 @@ footer>p{
 	text-align: center;
 	font-family:asap;
 	 position: fixed;
-  top: 0;
-  right: 0;
-left:0;
-	
-  
-  border: 3px solid #73AD21;
+         bottom: 0;
+         right: 0;
+         left:0;
 	
 }
 .score-board

@@ -18,6 +18,12 @@ header> h1{
 	text-align: center;
 	font-family:asap;
 }
+footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+	color=black;
+	background-color=yellow;
+  }
 .score-board
 {
 	margin: 18px auto;

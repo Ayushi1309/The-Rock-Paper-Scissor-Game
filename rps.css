@@ -23,7 +23,9 @@ footer{
 	background:yellow;
 	text-align: center;
 	font-family:asap;
-	position: relative;
+	 position: fixed;
+  bottom: 0;
+  right: 0;
 }
 .score-board
 {
